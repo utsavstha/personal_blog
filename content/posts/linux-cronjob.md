@@ -108,11 +108,11 @@ Below are some examples of scheduling cron jobs.
 
 ---
 
-| SCHEDULE         | Description                                               |
-| ---------------- | --------------------------------------------------------- |
-| `"5 0 * 8 *"`    | At 00:05 in August.                                       |
-| `" 5 4 * * 6"`   | At 04:05 on Sunday.                                       |
-| `"0 22 * * 1-5"` | At 22:00 on every day-of-week from Monday through Friday. |
+| SCHEDULE       | Description                                               |
+| -------------- | --------------------------------------------------------- |
+| `5 0 * 8 *`    | At 00:05 in August.                                       |
+| `5 4 * * 6`    | At 04:05 on Sunday.                                       |
+| `0 22 * * 1-5` | At 22:00 on every day-of-week from Monday through Friday. |
 
 :  
 SCHEDULED VALUE: "At 00:05 in August." "At 04:05 on Sunday." "At 22:00 on every day-of-week from Monday through Friday."
