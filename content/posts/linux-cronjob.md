@@ -64,10 +64,10 @@ sudo systemctl status cron.service
 
 Crontabs use the following flags for adding and listing cron jobs.
 
-- crontab -e: edits crontab entries to add, delete, or edit cron jobs.
-- crontab -l: list all the cron jobs for the current user.
-- crontab -u username -l: list another user's crons.
-- crontab -u username -e: edit another user's crons.
+- `crontab -e`: edits crontab entries to add, delete, or edit cron jobs.
+- `crontab -l`: list all the cron jobs for the current user.
+- `crontab -u username -l`: list another user's crons.
+- `crontab -u username -e`: edit another user's crons.
 
 When you list crons, you'll see something like this:
 
@@ -78,7 +78,7 @@ When you list crons, you'll see something like this:
 
 In the above example,
 
-- - - - - - represents minute(s) hour(s) day(s) month(s) weekday(s), respectively.
+- `* * * * *` represents minute(s) hour(s) day(s) month(s) weekday(s), respectively.
 - sh represents that the script is a bash script and should be run from /bin/bash.
 - /path/to/script.sh specifies the path to script.
 
