@@ -108,7 +108,13 @@ Below are some examples of scheduling cron jobs.
 
 ---
 
-SCHEDULE: `"5 0 * 8 *"` `" 5 4 * * 6"` `"0 22 * * 1-5"`
+| SCHEDULE         | Description                                               |
+| ---------------- | --------------------------------------------------------- |
+| `"5 0 * 8 *"`    | At 00:05 in August.                                       |
+| `" 5 4 * * 6"`   | At 04:05 on Sunday.                                       |
+| `"0 22 * * 1-5"` | At 22:00 on every day-of-week from Monday through Friday. |
+
+:  
 SCHEDULED VALUE: "At 00:05 in August." "At 04:05 on Sunday." "At 22:00 on every day-of-week from Monday through Friday."
 
 ---
@@ -132,7 +138,8 @@ Here, we have scheduled it to run per minute.
 
 - Check the output of the file date-out.txt. According to the script, the system date should be printed to this file every minute.
 
-#Wrapping up
+# Wrapping up
+
 Automating processes, such as via cron jobs, decreases the amount of repetitious effort required. It also enables robots to self-heal and operate nonstop without human intervention.
 
 Linux relies heavily on cron tasks for automation, thus you should absolutely explore with crons.
