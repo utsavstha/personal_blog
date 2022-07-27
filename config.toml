@@ -58,14 +58,14 @@ paginate = 5
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "Utsav Shrestha"
-  site = ""
+  site = "_stha.dev"
 
 [languages]
   [languages.en]
     languageName = "English"
     title = "Utsav Shrestha"
     subtitle = "I write what I learn"
-    owner = ""
+    owner = "utsav@stha.dev"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
