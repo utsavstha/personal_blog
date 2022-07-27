@@ -114,9 +114,6 @@ Below are some examples of scheduling cron jobs.
 | `5 4 * * 6`    | At 04:05 on Sunday.                                       |
 | `0 22 * * 1-5` | At 22:00 on every day-of-week from Monday through Friday. |
 
-:  
-SCHEDULED VALUE: "At 00:05 in August." "At 04:05 on Sunday." "At 22:00 on every day-of-week from Monday through Friday."
-
 ---
 
 It is okay if you are unable to grasp this all at once. You can practice and generate cron schedules with the crontab guru.
